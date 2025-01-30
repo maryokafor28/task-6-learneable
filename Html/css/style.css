@@ -37,16 +37,42 @@ hr {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.548);
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .vertical-border-right {
   width: 30px;
   height: 50vh;
-  padding-left: 20px;
   margin-top: 20px;
-  margin: 15px;
   border-radius: 10px;
   background: #e7f9fd;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.img1 {
+  background: blue;
+  border-radius: 20px;
+  padding: 5px;
+  width: 130px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.text h1 {
+  font-size: 35px;
+  width: 100px;
+}
+.Recipes-1 {
+  background: blueviolet;
+  width: 500px;
+  /* margin: 20px; */
+}
+.sauce-plate {
+  width: 500px;
 }
