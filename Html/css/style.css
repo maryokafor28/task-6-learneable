@@ -37,7 +37,7 @@ hr {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.548);
   width: 100%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .vertical-border-right {
@@ -53,26 +53,85 @@ section {
   width: 100%;
   margin-top: 20px;
 }
+
 .img1 {
-  background: blue;
-  border-radius: 20px;
-  padding: 5px;
-  width: 130px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  padding: 5px 10px;
+  background: white;
+  border-radius: 15px;
+  display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+  margin-bottom: 35px;
 }
+
 .text h1 {
-  font-size: 35px;
-  width: 100px;
+  font-size: 55px;
+  margin-bottom: 25px;
 }
+
+.text p {
+  margin-top: 35px;
+  font-size: 18px;
+}
+
 .Recipes-1 {
-  background: blueviolet;
-  width: 500px;
-  /* margin: 20px; */
+  /* width: 700px; */
+  padding: 40px;
+  background-color: #e7f9fd;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .sauce-plate {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Timer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+.timer span {
+  margin-right: 80px;
+  margin: 10px;
+}
+.timer img {
+  height: 20px;
+  width: 20px;
+}
+.john {
   width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 130px;
+  gap: 10px;
+}
+button {
+  border-radius: 20px;
+  border: none;
+  padding: 4px 10px;
+}
+.btn-view {
+  margin-top: 20px;
+  margin-left: 200px;
+  color: aliceblue;
+  border-radius: 30px;
+  padding: 12px;
+  background: black;
+}
+.badge {
+  position: relative;
+  bottom: 570px;
+  margin-left: 540px;
+  overflow: hidden;
+}
+.vertical-border-left {
+  width: 30px;
+  height: 50vh;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #e7f9fd;
 }
