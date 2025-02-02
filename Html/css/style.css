@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* --------header section------------- */
 }
 header {
   display: flex;
@@ -39,7 +41,7 @@ hr {
   width: 100%;
   margin-top: 8px;
 }
-
+/* -------------------card section----------------- */
 .vertical-border-right {
   width: 30px;
   height: 50vh;
@@ -48,12 +50,15 @@ hr {
   background: #e7f9fd;
 }
 
-section {
+main {
   display: flex;
   width: 100%;
   margin-top: 20px;
 }
 
+.card {
+  width: 100%;
+}
 .img1 {
   padding: 5px 10px;
   background: white;
@@ -134,4 +139,104 @@ button {
   margin-top: 20px;
   border-radius: 10px;
   background: #e7f9fd;
+}
+
+/* -------category section---------------- */
+
+.view-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  padding: 40px;
+}
+.view-all h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.view-all p {
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 10px;
+  background: #e7f0fe;
+}
+.cat-pics {
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.cat-pics img {
+  width: 140px;
+  margin: 25px;
+}
+
+/* -----------simpl-tasty section------- */
+
+.simple-test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.simple-test h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.simple-test p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  width: 750px;
+}
+
+.images {
+  width: 100%;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.images img {
+  width: 400px;
+  padding: 20px;
+}
+
+/* -----chef section */
+
+.chef {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  justify-content: space-between;
+}
+.chef img {
+  width: 650px;
+}
+.chef .chef-text {
+  width: 400px;
+}
+.chef h1 {
+  font-size: 40px;
+  width: 500px;
+  margin-top: 40px;
+}
+.chef p {
+  font-size: 16px;
+  width: 420px;
+  margin-top: 40px;
+  line-height: 1.5;
+}
+.chef .learn {
+  border-radius: 10px;
+  color: white;
+  background: black;
+  padding: 15px 20px;
+  margin-top: 70px;
 }
