@@ -170,7 +170,7 @@ button {
   background: #e7f0fe;
 }
 .cat-pics {
-  padding: 40px;
+  gap: 10px;
   margin-bottom: 20px;
 }
 
